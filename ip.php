@@ -1,3 +1,3 @@
 <?php
-echo "Revision v1: ".$_SERVER['SERVER_ADDR']."\n";
+echo "Revision v2: ".$_SERVER['SERVER_ADDR']."\n";
 ?>
