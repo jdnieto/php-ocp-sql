@@ -1,6 +1,7 @@
 <h1>Hello World! Jenkins Code 1</h1>
  <?php
-$servername = getenv('MYSQL_SERVICE_HOST');
+// $servername = getenv('MYSQL_SERVICE_HOST');
+$servername = 'mysql.mysql-david-test.svc.cluster.local'
 $serverport = getenv('MYSQL_SERVICE_PORT');
 $username = getenv('mysqluser');
 $password = getenv('mysqlpassword');
