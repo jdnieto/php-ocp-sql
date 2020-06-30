@@ -1,11 +1,10 @@
 <h1>Hello World! Jenkins Code 1</h1>
  <?php
-// $servername = getenv('MYSQL_SERVICE_HOST');
-$servername = 'mysql.mysql-david-test.svc.cluster.local'
-$serverport = getenv('MYSQL_SERVICE_PORT');
-$username = getenv('mysqluser');
-$password = getenv('mysqlpassword');
-$dbname = getenv('mysqldatabase');
+$servername = getenv('SERVICE');
+$serverport = getenv('SERVICE_PORT');
+$username = getenv('USER');
+$password = getenv('PASS');
+$dbname = getenv('DATABASE');
 
 // Create connection
 $conn = new mysqli($servername.':'.$serverport, $username, $password, $dbname);
